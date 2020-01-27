@@ -1,0 +1,67 @@
+.example-card{
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 600px;
+  margin-left:550px;
+  margin-top:20px;
+  width:320px;
+  height:500px;
+  margin-bottom: 40px;
+
+}
+#card{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:greenyellow;
+  font-size: 30px;
+ 
+}
+#cards{
+  color: rgb(204, 32, 32);
+  
+  text-align: center;
+ 
+  
+}
+.title-center {
+  margin: 0 auto;
+}
+.panel-default{
+  background-attachment: fixed;
+  margin-top: -105px;
+  /* margin-bottom: 100px; */
+  position: fixed;
+  width: 100%;
+  height:100%;
+}
+#navbar {
+  padding-top: 0px;
+  padding-bottom: 50px;
+ margin-bottom: 50px;
+ margin-top: 0px;
+ 
+}
+#md-4{
+  margin-left: -50px;
+}
+#md-5{
+  margin-left: -60px;
+}
+#btn-4{
+  margin-right: 20px;
+
+}
+#btn-5{
+  margin-right: 30px;
+  margin-left: 10px;
+}
+#btn-6{
+  margin-right: 40px;
+}
+#nv{
+  margin-top: 0px;
+}
+
+

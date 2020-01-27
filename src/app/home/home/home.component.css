@@ -1,0 +1,91 @@
+.pull-right{
+    margin-left: 1200px;
+}
+#md-3{
+    margin-left: 15px;
+}
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+ 
+mat-sidenav {
+    width: 180px;
+  
+}
+ 
+main {
+    padding: 10px;
+}
+body{
+    background-color: lightgray;
+}
+#sd{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#user{
+    margin-left:10px;
+    cursor: pointer;
+}
+#usericon{
+    size: 30cm;
+    margin-top: 20px;
+    color: red;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#custicon{
+    size: 30cm;
+    cursor: pointer;
+    color: red;
+    margin-left: 20px;
+}
+#agenticon{
+    size: 30cm;
+    cursor: pointer;
+    color: red;
+    margin-left: 20px;
+}
+#prod{
+    size: 30cm;
+    cursor: pointer;
+    color: red;
+    margin-left: 20px;
+}
+#comp{
+    size: 30cm;
+    cursor: pointer;
+    color: red;
+    margin-left: 20px;
+}
+#prodt{
+    margin-left:10px;
+    cursor: pointer;
+}
+#agent{
+    margin-left:10px;
+    cursor: pointer;
+}
+#compt{
+    margin-left:10px;
+    cursor: pointer;
+}
+#cust{
+    margin-left:10px;
+    cursor: pointer;
+}
+#out{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#bgimg{
+    background-image: url("/assets/download.jpeg");
+    padding: 20px;
+}
+#img{
+    background-image: url("/assets/download.jpeg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 500px;
+}

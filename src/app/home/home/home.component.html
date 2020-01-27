@@ -1,0 +1,72 @@
+
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <button mat-icon-button>
+        <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+      </button>
+      <!-- <h1>SimpleCRM</h1> -->
+      <span class="menu-spacer"></span>
+      <div>
+        <a mat-button [routerLink]="'/user'"> User </a>
+        <a mat-button [routerLink]="'/agent'"> Agent </a>
+        <a mat-button [routerLink]="'/customer'"> Customer </a>
+        <a mat-button [routerLink]="'/products'">  Products </a>
+        <a mat-button [routerLink]="'/complaints'"> Complaints </a>
+        <a mat-button [routerLink]="'/login'"> Logout </a>
+  
+      </div>
+    </mat-toolbar-row>
+  
+    <!-- <mat-toolbar-row>
+        <span style="font-size: 12px;">SimpleCRM helps you easily manage your contacts</span>
+      </mat-toolbar-row> -->
+  </mat-toolbar>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+  
+      <i class="material-icons" id="usericon">person_outline</i><span mat-list-item id="user" routerLink="/user"> User </span><br/><br/><br/>
+      <i class="material-icons" id="agenticon">insert_chart_outlined</i><span mat-list-item id="agent" routerLink="/agent"> Agent </span><br/><br/><br/>
+        <i class="material-icons" id="custicon">people_alt</i><span mat-list-item id="cust" routerLink="/customer"> Customer </span><br/><br/><br/>
+        <i class="material-icons" id="prod">widgets</i> <span mat-list-item id="prodt" routerLink="/products">  Products </span><br/><br/><br/>
+        <i class="material-icons" id="comp">thumb_down_alt</i><span mat-list-item id="compt" routerLink="/complaints"> Complaints </span><br/><br/><br/>
+        <mat-icon svgIcon="arrow" id="out"></mat-icon> <span mat-list-item id="sd" routerLink="/login"> Logout </span><br/>
+        <!-- <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a> -->
+  
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div style="height: 88vh;">
+       
+       
+      <div id="img"></div>
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

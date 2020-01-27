@@ -1,0 +1,124 @@
+/* mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+ 
+mat-sidenav {
+    width: 250px;
+    background-color:violet;
+}
+ 
+main {
+    padding: 10px;
+}
+table {
+    width: 100%;
+  }
+  .mat-elevation-z8{
+      margin-top:0px;
+  } */
+  .mat-elevation-z8{
+      margin-left:300px;
+      width:60%;
+      height:80%;
+      margin-top:5px;
+  }
+  .content{
+      margin-top: 60px;
+      margin-left:120px;
+      color: red;
+      font-style: initial;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+  }
+  #btn-1{
+      margin-left: 1200px;
+      margin-top: -60px;
+      
+  }
+  .material-icons{
+      margin-right: 5px;
+
+  }
+  #image{
+     size:0cm
+  }
+  .bg-1{
+      background-color: lightgray;
+  }
+  mat-sidenav{
+      width: 150px;
+  }
+  #usr{
+      margin-left:10px;
+      
+  }
+  #agt{
+    margin-left:10px;
+}
+#prd{
+    margin-left:10px;
+}
+#cust{
+    margin-left:10px;
+}
+#log{
+    margin-left:10px;
+}
+#comp{
+    margin-left:10px;
+}
+#sd{
+    margin-left: 10px;
+}
+#user{
+    margin-left:10px;
+}
+#usericon{
+    size: 30cm;
+    margin-top: 20px;
+    color: red;
+    margin-left: 20px;
+}
+#custicon{
+    size: 30cm;
+  
+    color: red;
+    margin-left: 20px;
+}
+#agenticon{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#prod{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#comp{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#prodt{
+    margin-left:10px;
+}
+#agent{
+    margin-left:10px;
+}
+#compt{
+    margin-left:10px;
+}
+#cust{
+    margin-left:10px;
+}
+#out{
+    margin-left: 20px;
+}
+mat-sidenav {
+    width: 180px;
+  
+}

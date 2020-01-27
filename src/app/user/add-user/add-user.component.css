@@ -1,0 +1,93 @@
+.content{
+    margin-top: 60px;
+    margin-left:180px;
+    color: red;
+    font-style: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.example-card{
+    margin-top: 50px;
+    margin-left:250px;
+    margin-right:250px;
+    width:70%;
+    height:50%;
+}
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+#btn-5{
+    margin-top:30px;
+    margin-right: 30px;
+}
+.bg-1{
+    background-color: lightgray;
+}
+/* #mad-1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#md-2{
+    margin-left: 80px;
+    margin-right: 30px;
+}
+#md-3{
+    margin-right:80px;
+    margin-left: 80px;
+} */
+#sd{
+    margin-left: 10px;
+}
+#user{
+    margin-left:10px;
+}
+#usericon{
+    size: 30cm;
+    margin-top: 20px;
+    color: red;
+    margin-left: 20px;
+}
+#custicon{
+    size: 30cm;
+  
+    color: red;
+    margin-left: 20px;
+}
+#agenticon{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#prod{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#comp{
+    size: 30cm;
+   
+    color: red;
+    margin-left: 20px;
+}
+#prodt{
+    margin-left:10px;
+}
+#agent{
+    margin-left:10px;
+}
+#compt{
+    margin-left:10px;
+}
+#cust{
+    margin-left:10px;
+}
+#out{
+    margin-left: 20px;
+}
+mat-sidenav {
+    width: 180px;
+  
+}

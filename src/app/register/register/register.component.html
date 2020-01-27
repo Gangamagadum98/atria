@@ -1,0 +1,65 @@
+<body>
+        <br/>
+ <div flex=50 class="example-card">
+
+<mat-card class="card"  >
+        <mat-toolbar color="primary" ><span class="title-center" style="color:white;">Registration</span></mat-toolbar>
+        <br/>
+<mat-card-content>
+    <form class="my-form" name="reg" [formGroup]="form" >
+    <mat-form-field class="full-width">
+        <textarea matInput placeholder="First Name" name="fname" formControlName="firstname"></textarea></mat-form-field>
+        <span *ngIf="form.get('firstname').touched && !form.get('firstname').value">First name is mandatory</span>
+
+        <br/>
+        <mat-form-field class="full-width">
+        <textarea matInput placeholder="Last Name" name="lname" formControlName="lastname"></textarea></mat-form-field>
+        <span *ngIf="form.get('lastname').touched && !form.get('lastname').value">Lastname is mandatory</span>
+        <br/>
+        <mat-form-field class="full-width">
+        <textarea matInput placeholder="Email" name="mail" formControlName="email"></textarea></mat-form-field>
+        <span *ngIf="form.get('email').touched && !form.get('email').value">Email is mandatory</span>
+
+        <br/>
+        <mat-form-field class="full-width">
+        <input matInput type="password" placeholder="Password" name="pass" formControlName="password"/></mat-form-field>
+        <span *ngIf="form.get('password').touched && !form.get('password').value">Password is mandatory</span>
+
+        <br/>
+        <mat-form-field class="full-width">
+        <input matInput type="password" placeholder="Confirm Password" name="cpassword" formControlName="confirmpassword"/></mat-form-field>
+        <span *ngIf="form.get('confirmpassword').touched && !form.get('confirmpassword').value">Confirmpassword is mandatory</span>
+        <br/>
+        <mat-form-field class="full-width">
+        <textarea matInput placeholder="Phone No" name="pno" formControlName="phno"></textarea></mat-form-field>
+        <span *ngIf="form.get('phno').touched && !form.get('phno').value">Phone no is mandatory</span>
+
+        <br/><br/>
+        <mat-label class="md-2">Gender</mat-label>
+        <mat-radio-group aria-label="Gender" class="md-6">
+            <mat-radio-button value="1" color="primary" class="md-3">Male</mat-radio-button>
+            <mat-radio-button value="2" color="primary" class="md-4">Female</mat-radio-button>
+            <mat-radio-button value="3" color="primary" class="md-5">Other</mat-radio-button>
+        </mat-radio-group>
+        <br/><br/>
+        <mat-form-field id="date">
+            <mat-label>Date of Birth</mat-label>
+            <input matInput [matDatepicker]="picker" placeholder="Choose a date" formControlName="date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field> 
+        <mat-card-actions>
+            <button mat-raised-button (click)="register()" id="btn-0" [disabled]="form.invalid"  color="primary">REGISTER</button><button mat-raised-button type="reset" color="warn">CANCEL</button>  <br/><br/>
+             <a routerLink="login">Login Here</a>
+         
+        </mat-card-actions>
+    </form>
+    </mat-card-content>
+</mat-card>
+</div>
+
+</body>
+
+
+
+
